@@ -1,10 +1,40 @@
 body {
   font-family: 'Ibarra Real Nova', serif;
-  font-size: 1.8em;
+}
+
+p, form, ul li, footer a {
+  font-size: 1.2em;
+}
+
+section{
+  margin:0;
+  padding:0;
+}
+
+section.flush-with-above{
+  border-top: none !important;
+  padding-top: 0;
+}
+
+#row-wie-ben-ik{
+  min-height: 687px;        
+  background-position: center 0;
+  background-image: url('../images/bg-egel.png');
+  background-position: center -220px;
+  background-repeat: no-repeat;
 }
 
 .btn {
   font-size: inherit;
+}
+
+.shadowbox-large{
+  margin-top:-20%;
+  z-index: 1;
+  padding: 3em;
+  display: block;
+  box-shadow:0 10px 16px 0 rgb(0 0 0 / 10%), 0 6px 20px 0 rgb(0 0 0 / 15%) !important;
+  background-color: #fff;
 }
 
 .form-control{
@@ -12,12 +42,12 @@ body {
 }
 
 .copyright{
-  font-size: .6em;
+  font-size: .7em;
   color: #fff;
 }
 
 .scroll-margin{
-  scroll-margin-top: 12rem;
+  scroll-margin-top: 11rem;
 }
 
 .custom-grad {
